@@ -1,0 +1,15 @@
+{
+  "name": "herkansing",
+  "version": "1.0.0",
+  "description": "herkansing performance matters",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Niels",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4"
+  }
+}
