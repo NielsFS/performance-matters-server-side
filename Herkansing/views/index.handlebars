@@ -5,11 +5,13 @@
 
 	<section id="startscreen" class="show"> 
 		<div id="template">
-			<div class="container">
-				<img class="thumbnail">
-				<h2 class="title"></h2>
-				<a class="videoId"></a>
-			</div>	
+			{{#each videos}} 
+				<div class="container">
+					<img class="thumbnail" src="{{thumbnail}}">
+					<h2 class="title">{{title}}</h2>
+					<a class="videoId" href="{{videoId}}"></a>
+				</div>
+			{{/each}}	
 		</div> 
 	</section>
 
