@@ -5,7 +5,7 @@
 		init: function() {
 			addCategory.choose()
 			addYourVideos.searchVideos()
-			routes.init()
+			// routes.init()
 			storage.render()
 			filterCategory.filter()
 		}
