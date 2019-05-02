@@ -1,0 +1,69 @@
+	<section id="navigation">
+		<nav>
+			<ul>
+				<li>
+					<a href="#add-video">add video's</a>
+				</li>
+				<li>
+					<a href="#categories">categories</a>
+				</li>
+			</ul>
+		</nav>
+	</section>
+
+	<section id="add-video" class="menu">
+		<div class="searchContainer">
+			<label>Search:</label>
+			<input id=searchInput type="text">
+			<button>Search</button>
+		</div>
+		<div id="videoContainer">
+			<div class="individualContainer">
+				<img class="thumbnail">
+				<h2 class="title"></h2>
+				<a class="videoId"></a>
+			</div>
+		</div>
+		<button><a href="#videos">Close</a></button>
+	</section>
+
+	<section id="add-category"> 
+		<div id="templateAddVideo">
+			<div class="mainContainer">
+				<div id="addVideoContainer">
+					<img class="thumbnail">
+					<h2 class="title"></h2>
+				</div>	
+				<div class="categories">
+					<fieldset>
+						<legend>Choose category</legend>
+	
+						<input type="radio" name="category" id="music">
+						<label for="music">
+							music
+						</label>
+	
+						<input type="radio" name="category" id="webdev">
+						<label for="webdev">
+							webdev
+						</label>
+	
+	
+						<input type="radio" name="category" id="funny">
+						<label for="funny">
+							funny
+						</label>
+	
+						<input type="radio" name="category" id="other" checked>
+						<label for="other">
+							other
+						</label>
+					</fieldset>
+				</div>
+				<div class="buttonContainer">
+					<button class="cancel"><a href="#add-video">cancel</a></button>
+					<button class="addVideo"><a href="#add-video">add video</a></button>
+				</div>
+			</div>
+		</div> 
+	</section>
