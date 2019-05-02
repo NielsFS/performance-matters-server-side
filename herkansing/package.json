@@ -1,15 +1,20 @@
 {
-  "name": "herkansing",
+  "name": "Herkansing2",
   "version": "1.0.0",
-  "description": "herkansing performance matters",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node app"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
   },
-  "author": "Niels",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
-    "nodemon": "^1.18.4"
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
   }
 }
