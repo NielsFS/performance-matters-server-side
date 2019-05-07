@@ -3,11 +3,11 @@
 
 	const app = {
 		init: function() {
-			// addCategory.choose()
-			// addYourVideos.searchVideos()
-			// routes.init()
-			// storage.render()
-			// filterCategory.filter()
+			addCategory.choose()
+			addYourVideos.searchVideos()
+			routes.init()
+			storage.render()
+			filterCategory.filter()
 		}
 	}
 

@@ -17,7 +17,7 @@ const addYourVideos = {
 
 			let searchValue = document.getElementById('searchInput').value;
 
-			var queryurl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${searchValue}&type=video&maxResults=10&key=AIzaSyAFLVY9mCE3hBE8niWn6wcNs01nWCZcn1s`;
+			var queryurl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${searchValue}&type=video&maxResults=10&key=AIzaSyBrCwrC5hYMfnXd4AllfVGsG2IA-8i58aU`;
 	
 			fetch(queryurl)
 			.then(response => response.json()) 

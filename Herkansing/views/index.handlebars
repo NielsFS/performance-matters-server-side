@@ -5,11 +5,11 @@
 
 	<section id="startscreen" class="show"> 
 		<div id="template">
-			{{#each videos}} 
+			{{#each overview}} 
 				<div class="container">
 					<img class="thumbnail" src="{{thumbnail}}">
 					<h2 class="title">{{title}}</h2>
-					<a class="videoId" href="{{videoId}}"></a>
+					<a class="videoId" href="{{title}}/{{id}}"></a>
 				</div>
 			{{/each}}	
 		</div> 

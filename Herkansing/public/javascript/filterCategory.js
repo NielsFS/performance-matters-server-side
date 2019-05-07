@@ -2,7 +2,9 @@ const filterCategory = {
 	filter: function() {
 
 		let categorySelection = {}
+		console.log(categorySelection)
 		let filterCategory = document.querySelectorAll('input[name="filterCategory"]')
+		console.log(filterCategory)
 		filterCategory.forEach( function (filter) {
 			
 			if (filter.checked == true) {

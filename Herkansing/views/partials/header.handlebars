@@ -1,3 +1,7 @@
+<div class="loadingSpinner">
+		<div class="spinner1"></div>
+		<div class="spinner2"></div>
+	</div>
 	<section id="navigation">
 		<nav>
 			<ul>
@@ -9,6 +13,35 @@
 				</li>
 			</ul>
 		</nav>
+	</section>
+
+	<section id="categories" class="menu">
+		<fieldset>
+			<legend>Choose category</legend>
+
+			<input type="checkbox" name="filterCategory" id="music">
+			<label for="music">
+				music
+			</label>
+
+			<input type="checkbox" name="filteCategory" id="webdev">
+			<label for="webdev">
+				webdev
+			</label>
+
+
+			<input type="checkbox" name="filterCategory" id="funny">
+			<label for="funny">
+				funny
+			</label>
+
+			<input type="checkbox" name="filterCategory" id="other">
+			<label for="other">
+				other
+			</label>
+		</fieldset>
+		
+		<button><a href="#videos">Close</a></button>
 	</section>
 
 	<section id="add-video" class="menu">
@@ -28,42 +61,50 @@
 	</section>
 
 	<section id="add-category"> 
-		<div id="templateAddVideo">
-			<div class="mainContainer">
-				<div id="addVideoContainer">
-					<img class="thumbnail">
-					<h2 class="title"></h2>
-				</div>	
-				<div class="categories">
-					<fieldset>
-						<legend>Choose category</legend>
-	
-						<input type="radio" name="category" id="music">
-						<label for="music">
-							music
-						</label>
-	
-						<input type="radio" name="category" id="webdev">
-						<label for="webdev">
-							webdev
-						</label>
-	
-	
-						<input type="radio" name="category" id="funny">
-						<label for="funny">
-							funny
-						</label>
-	
-						<input type="radio" name="category" id="other" checked>
-						<label for="other">
-							other
-						</label>
-					</fieldset>
+			<div id="templateAddVideo">
+				<div class="mainContainer">
+					<div id="addVideoContainer">
+						<img class="thumbnail">
+						<h2 class="title"></h2>
+					</div>	
+					<div class="categories">
+						<fieldset>
+							<legend>Choose category</legend>
+		
+							<input type="radio" name="category" id="music">
+							<label for="music">
+								music
+							</label>
+		
+							<input type="radio" name="category" id="webdev">
+							<label for="webdev">
+								webdev
+							</label>
+		
+		
+							<input type="radio" name="category" id="funny">
+							<label for="funny">
+								funny
+							</label>
+		
+							<input type="radio" name="category" id="other" checked>
+							<label for="other">
+								other
+							</label>
+						</fieldset>
+					</div>
+					<div class="buttonContainer">
+						<button class="cancel"><a href="#add-video">cancel</a></button>
+						<button class="addVideo"><a href="#add-video">add video</a></button>
+					</div>
 				</div>
-				<div class="buttonContainer">
-					<button class="cancel"><a href="#add-video">cancel</a></button>
-					<button class="addVideo"><a href="#add-video">add video</a></button>
-				</div>
-			</div>
-		</div> 
+			</div> 
+		</section>
+
+	<section id="detail" class="detailPage">
+		<div id="detailTemplate">
+			<h2 class="title"></h2>
+		</div>
+		<button><a href="#videos">Close</a></button>
+		<iframe width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	</section>

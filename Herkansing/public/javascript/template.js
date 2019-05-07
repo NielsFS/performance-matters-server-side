@@ -18,18 +18,18 @@ const template = {
 			}
 		}
 
-		Transparency.render(document.getElementById('template'), storage.videos, directives);
+		// Transparency.render(document.getElementById('template'), storage.videos, directives);
 
-		const loadingSpinner = document.querySelector('.loadingSpinner') // spinner while loading
-		loadingSpinner.classList.add('showSpinner');
+		// const loadingSpinner = document.querySelector('.loadingSpinner') // spinner while loading
+		// loadingSpinner.classList.add('showSpinner');
 
-		[].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) { //lazy loader
-			img.setAttribute('src', img.getAttribute('data-src'))
-			img.onload = function() {
-			  img.removeAttribute('data-src')
-			  loadingSpinner.classList.remove('showSpinner')
-			}
-		})
+		// [].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) { //lazy loader
+		// 	img.setAttribute('src', img.getAttribute('data-src'))
+		// 	img.onload = function() {
+		// 	  img.removeAttribute('data-src')
+		// 	//   loadingSpinner.classList.remove('showSpinner')
+		// 	}
+		// })
 
 		let selectedVideo = document.querySelectorAll('.videoId')
 		selectedVideo.forEach( function(video) {
