@@ -92,7 +92,6 @@ const storage = {
 app.get('/', function(req, res){
 
 	let overview = storage.videos
-	console.log(overview)
 	
 	res.render('index', {
 		overview
@@ -117,6 +116,8 @@ app.get('/:title/:id', function(req, res){
 	});
 	
 });
+
+
 
 // start server
 app.listen(5000, function(){

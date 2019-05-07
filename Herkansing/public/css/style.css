@@ -90,10 +90,19 @@ body {
 
 #startscreen {
 	margin-top: 1.2rem;
+	display: flex;
+	flex-direction: column;
 	/* padding: 0 2%; */
 }
 
 #template {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#template2 {
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
