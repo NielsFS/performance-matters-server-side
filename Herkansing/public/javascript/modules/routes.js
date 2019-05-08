@@ -1,4 +1,5 @@
-const routes = {
+module.exports = {
+
 	init: function() {
 		const addVideo = document.getElementById('add-video')
 		const detail = document.getElementById('detail')

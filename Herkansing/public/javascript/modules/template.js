@@ -1,3 +1,5 @@
+
+
 // const storage = '1'
 
 // const JSONStorage = JSON.stringify(storage)
@@ -12,7 +14,8 @@
 
 // console.log(LoadLocalStorage)
 
-const template = {
+
+module.exports = {
 	overview: function(id) {
 
 		let directives = {
@@ -52,6 +55,8 @@ const template = {
 			})
 		})
 	},
+
+
 	detail: function(id) {
 		let detailVideoId = id
 		const iframe = document.querySelector('#detail iframe')

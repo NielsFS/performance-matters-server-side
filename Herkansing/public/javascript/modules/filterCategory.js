@@ -1,4 +1,4 @@
-const filterCategory = {
+module.exports = {	
 	filter: function() {
 
 		let categorySelection = {}

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "browserify scripts/script.js -o public/javascript/bundle.js",
+    "build": "browserify public/javascript/index.js -o public/javascript/bundle.js",
     "start": "nodemon"
   },
   "keywords": [],

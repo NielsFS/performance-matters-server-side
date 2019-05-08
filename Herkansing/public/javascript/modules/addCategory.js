@@ -1,6 +1,6 @@
-const addCategory = {
-	choose: function() {
 
+module.exports = {
+	choose: function() {
 		document.querySelector('.addVideo').addEventListener('click', function() {
 			let category = document.querySelector('input[name="category"]:checked').id
 			storage.addVideo.category = category

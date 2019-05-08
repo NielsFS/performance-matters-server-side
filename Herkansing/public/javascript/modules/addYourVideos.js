@@ -1,4 +1,4 @@
-const addYourVideos = {
+module.exports = {
 	searchVideos: function() {
 
 		const searchGO = document.querySelector('.searchContainer button')
@@ -35,3 +35,4 @@ const addYourVideos = {
 		}
 	}
 }
+
