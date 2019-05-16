@@ -15,7 +15,8 @@
 // console.log(LoadLocalStorage)
 
 
-module.exports = {
+const template = {
+
 	overview: function(id) {
 
 		let directives = {

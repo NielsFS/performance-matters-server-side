@@ -28,7 +28,7 @@ const storage = {
 		{
 			title: 'The Most Beautiful Shots In Movie History',
 			id: 'xBasQG_6p40',
-			thumbnail: 'https://static.twentytwowords.com/wp-content/uploads/featured20godfather.jpg',
+			thumbnail: 'https://i.ytimg.com/vi/xBasQG_6p40/hqdefault.jpg',
 			category: 'movie'
 		},
 		{
@@ -58,7 +58,7 @@ const storage = {
 		{
 			title: '10 rules to help you rule type',
 			id: 'QrNi9FmdlxY',
-			thumbnail: 'https://cdn-images-1.medium.com/max/1598/1*aom6VwAyjh03cOY15_x4nA.png',
+			thumbnail: 'https://i.ytimg.com/vi/QrNi9FmdlxY/hqdefault.jpg',
 			category: 'webdev'
 		},
 		{
@@ -76,13 +76,13 @@ const storage = {
 		{
 			title: '10 rules to help you rule type',
 			id: 'QrNi9FmdlxY',
-			thumbnail: 'https://cdn-images-1.medium.com/max/1598/1*aom6VwAyjh03cOY15_x4nA.png',
+			thumbnail: 'https://i.ytimg.com/vi/QrNi9FmdlxY/hqdefault.jpg',
 			category: 'webdev'
 		},
 		{
 			title: '10 rules to help you rule type',
 			id: 'QrNi9FmdlxY',
-			thumbnail: 'https://cdn-images-1.medium.com/max/1598/1*aom6VwAyjh03cOY15_x4nA.png',
+			thumbnail: 'https://i.ytimg.com/vi/QrNi9FmdlxY/hqdefault.jpg',
 			category: 'webdev'
 		},
 	],
@@ -97,11 +97,6 @@ app.get('/', function(req, res){
 		overview
 	})
 });
-
-// title: overview.title,
-		// id: overview.id,
-		// thumbnail: overview.thumbnail,
-		// category: overview.category
 
 
 // detail route
