@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "browserify public/javascript/index.js -o public/javascript/bundle.js",
-    "start": "nodemon"
+    "uglifycss": "uglifycss public/css/style.css > public/css/style-min.css",
+    "build": "browserify public/javascript/index.js | uglifyjs > public/javascript/bundle.js",
+    "start": "npm run build && npm run uglifycss && nodemon"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,10 @@
   "dependencies": {
     "browserify": "^16.2.3",
     "express": "^4.16.4",
-    "express-handlebars": "^3.0.2"
+    "express-handlebars": "^3.0.2",
+    "uglify-es": "^3.3.9",
+    "uglify-js": "^3.5.12",
+    "uglifycss": "0.0.29"
   },
   "devDependencies": {
     "nodemon": "^1.18.11"

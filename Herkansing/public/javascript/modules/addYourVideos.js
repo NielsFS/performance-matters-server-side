@@ -12,12 +12,12 @@ module.exports = {
 			}
 		})
 
-		searchGO.addEventListener('click', fetchVideos);
+		searchGO.addEventListener('click', fetchVideos)
 		function fetchVideos() {
 
-			let searchValue = document.getElementById('searchInput').value;
+			let searchValue = document.getElementById('searchInput').value
 
-			var queryurl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${searchValue}&type=video&maxResults=10&key=AIzaSyBrCwrC5hYMfnXd4AllfVGsG2IA-8i58aU`;
+			var queryurl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${searchValue}&type=video&maxResults=10&key=AIzaSyBrCwrC5hYMfnXd4AllfVGsG2IA-8i58aU`
 	
 			fetch(queryurl)
 			.then(response => response.json()) 
