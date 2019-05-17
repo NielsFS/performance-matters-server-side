@@ -1,16 +1,19 @@
-const express = require('express');
-const app = express();
-const path = require('path');
-const hbs = require('express-handlebars');
+const express = require('express')
+const app = express()
+const path = require('path')
+const hbs = require('express-handlebars')
+const compression = require('compression')
 
-app.engine('handlebars', hbs({ defaultLayout: 'main' }));
-app.set('view engine', 'handlebars');
+app.use(compression())
 
-app.use(express.static('public'));
+app.engine('handlebars', hbs({ defaultLayout: 'main' }))
+app.set('view engine', 'handlebars')
+
+app.use(express.static('public'))
 
 
 // Load view engine
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'views'))
 
 const storage = {
 	videos: [

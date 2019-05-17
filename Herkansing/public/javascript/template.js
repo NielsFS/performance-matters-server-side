@@ -1,5 +1,20 @@
 
 
+// const storage = '1'
+
+// const JSONStorage = JSON.stringify(storage)
+
+// console.log(JSONStorage)
+
+// localStorage.setItem('storage', JSONStorage)
+
+// console.log(localStorage)
+
+// const LoadLocalStorage = JSON.parse(localStorage['storage'])
+
+// console.log(LoadLocalStorage)
+
+
 const template = {
 
 	overview: function(id) {
