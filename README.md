@@ -23,5 +23,9 @@ The main opportunities to further improve the website are:
 * Minify CSS 
 * Minify JS
 
+### Async and critical css
+The first improvement I made was to load the stylesheet async and added critical css to improve the first paint. I was quite amazed on how much this improved the performance of the load time. The first paint was improved with 0.5 seconds, which is a 31% increase in first paint load time. 
 
+![Crit css](https://lh3.googleusercontent.com/CKUAnGT88fkwrpBduDPEWL-dJnaXj6RztnZlshS3gSDfbLUBO69o_9HlVZDZBPA0GSgCigWT3kQmHVathvfVxezsld8OpDwrTlRkHCDe3pp-QYumayx7iK5wPwnTyxUN8ebiEkhHIDYN2Wj2FvV_PgQTbhK5c1Gg3zQciAJyHk6M-iQXwwJqrsJ_s_xGjjfyxnacG4p0f7KMoTuYdzJc1Cv8I3EElPjKwYayvLcB5Gtkqe46XLVMvtNEo79SuXNjtWyvQNTPnLvLGruryPeVFvPKdLQOP0Qf3puvNb1rszm8Pt-UALWWyLEkm1Eg115jDp_HEb8Hq4Ro8_PYJRztGgrrvQyEqJ63IEdbsr9feYPKzs855x9cgiMqToIHUO1cgCOf7mw3i-NWRlQ3SktkTwpR53nmvJcLJnpuaTbrRXi4jA6k4RaYMp4Q7UwqNHzUBU_f10qyLuOfxgCCSXkbo6PjfT8MIWL7dguhrFwfkaZ-VoHb_AEI_QSmYw-TTvb4Qw0u9ehkQu5VrqzjMPFxDCAhaMUuPyvW5_6vbgyNclAiujDI1Cz42i31XZNpMRTcQWeJersIXWbZwm8ebeXrVhxecsWPokzTD8Ad4ilV2DT4r1wESDV7llrtKQwjjHkZzit_XWw0ZFGpSV8rzulNpoQOuUiZmZQ=w1194-h554-no)
 
+### G
