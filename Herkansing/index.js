@@ -8,6 +8,7 @@ app.set('view engine', 'handlebars');
 
 app.use(express.static('public'));
 
+
 // Load view engine
 app.set('views', path.join(__dirname, 'views'));
 
