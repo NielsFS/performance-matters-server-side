@@ -25,5 +25,12 @@
 
 	<script src="Javascript/bundle.js"></script>
 
+	<script>
+		if(navigator.serviceWorker) {
+			console.log('Service Worker supported')
+			navigator.serviceWorker.register('/sw.js')
+		}
+	</script>
+
 </html>
 
