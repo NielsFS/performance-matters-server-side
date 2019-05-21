@@ -1,8 +1,11 @@
 const cacheName = 'v2'
 
-
 self.addEventListener('install', event => {
 	console.log('serviceWorker installed')
+	caches.open('v2')
+	.then(cache => cache.addAll([
+		'offline.html'
+	]))
 })
 
 self.addEventListener('activate', event => {
@@ -23,5 +26,12 @@ self.addEventListener('fetch', event => {
 				return res
 			})
 			.catch(err => caches.match(event.request).then(res => res))
+			.catch(err => fetchOffline('offline.html'))
 	)
 })
+
+function fetchOffline(url) {
+	return caches.open('v2')
+	  .then(cache => cache.match(url))
+	  .then(response => response ? response : Promise.reject());
+  }
